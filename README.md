@@ -36,7 +36,7 @@ You are required to model the demand for shared bikes with the available indepen
 **Background:**
     The project involves building a multiple linear regression model to predict the demand for shared bikes. This prediction model is crucial for BoomBikes, a US-based bike-sharing provider, which has experienced a significant decline in revenue due to the COVID-19 pandemic. The company aims to understand the factors influencing the demand for shared bikes to develop a strategic business plan that can help them recover and thrive post-pandemic.
 
-**Business probem:**
+**Business problem:**
 
     BoomBikes is facing challenges in sustaining its operations during the ongoing pandemic. The company wants to prepare for the post-lockdown period by understanding the demand dynamics for shared bikes. The goal is to identify significant variables that affect bike demand and to quantify how these variables impact the demand. This understanding will enable BoomBikes to adjust their business strategies to meet customer needs effectively and gain a competitive edge in the market.
 
@@ -98,8 +98,8 @@ You are required to model the demand for shared bikes with the available indepen
 
         Higher bike rental counts are observed under below weather conditions.
 
-                - 1: Clear, Few clouds, Partly cloudy, Partly cloudy
-                - 2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
+         1: Clear, Few clouds, Partly cloudy, Partly cloudy
+         2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
 
     * Rental count is high on non holiday.
 
@@ -165,11 +165,10 @@ You are required to model the demand for shared bikes with the available indepen
 
     We can see that the equation of our best fitted line is:
 
-    \[ 
-    Cnt = 0.2314*yr - 0.0910*holiday + 0.4698*temp - 0.1439*hum - 0.1890*windspeed - 0.0791*fall - 0.1422*spring - 0.0580*weathersit_2 - 0.2393*weathersit_3 + 0.1004*September + 0.3745 
-    \]
 
-Please follow **Suddhasish_Kar.ipynb** for more details
+    Cnt = 0.2314*yr - 0.0910*holiday + 0.4698*temp - 0.1439*hum - 0.1890*windspeed - 0.0791*fall - 0.1422*spring - 0.0580*weathersit_2 - 0.2393*weathersit_3 + 0.1004*September + 0.3745 
+
+    Please follow **Suddhasish_Kar.ipynb** for more details
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
