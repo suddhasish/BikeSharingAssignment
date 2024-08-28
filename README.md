@@ -110,18 +110,18 @@ BoomBikes is facing challenges in sustaining its operations during the ongoing p
 
     * Correlation Among Numeric Variables:
 
-      There is a high positive correlation between temperature and feeling temperature, indicating potential multicollinearity.
-      Both temperature and feeling temperature show a positive correlation with bike rental counts.
-      Bike rental counts are negatively correlated with wind speed and humidity, suggesting that higher wind speeds and humidity levels deter bike rentals.
+      - There is a high positive correlation between temperature and feeling temperature, indicating potential multicollinearity.
+      - Both temperature and feeling temperature show a positive correlation with bike rental counts.
+      - Bike rental counts are negatively correlated with wind speed and humidity, suggesting that higher wind speeds and humidity levels deter bike rentals.
 
 
 - **Multivariate Analysis Conclusions**
 
     Multivariate Relationships:
 
-      Rental count is positively correlated with year and temperature.
-      Temperature is highly positively correlated with feeling temperature, count, and fall, but negatively correlated with spring.
-      Rental count is negatively correlated with wind speed.
+    - Rental count is positively correlated with year and temperature.
+    - Temperature is highly positively correlated with feeling temperature, count, and fall, but negatively correlated with spring.
+    - Rental count is negatively correlated with wind speed.
 
 ### Linear Regression Model Conclusions
 
