@@ -153,22 +153,22 @@ BoomBikes is facing challenges in sustaining its operations during the ongoing p
 
 **Model Evaluation Conclusions**
 
-    Final Model Evaluation:
+Final Model Evaluation:
 
-    The difference in R-squared scores between train and test data is very low (<5%), indicating robust model performance.
-    RMSE for multiple linear regression is 0.091, MAE is 0.068, and MSE is 0.008, all within acceptable ranges.
-    The final model equation provides a clear representation of the relationship between variables and bike rental counts, confirming the model's reliability in predicting bike rentals.
-
-
-    These conclusions provide a comprehensive understanding of the exploratory data analysis and the linear regression modeling process, highlighting key insights and the effectiveness of the final predictive model.
+The difference in R-squared scores between train and test data is very low (<5%), indicating robust model performance.
+RMSE for multiple linear regression is 0.091, MAE is 0.068, and MSE is 0.008, all within acceptable ranges.
+The final model equation provides a clear representation of the relationship between variables and bike rental counts, confirming the model's reliability in predicting bike rentals.
 
 
-    We can see that the equation of our best fitted line is:
+These conclusions provide a comprehensive understanding of the exploratory data analysis and the linear regression modeling process, highlighting key insights and the effectiveness of the final predictive model.
 
 
-    Cnt = 0.2314*yr - 0.0910*holiday + 0.4698*temp - 0.1439*hum - 0.1890*windspeed - 0.0791*fall - 0.1422*spring - 0.0580*weathersit_2 - 0.2393*weathersit_3 + 0.1004*September + 0.3745 
+We can see that the equation of our best fitted line is:
 
-    Please follow **Suddhasish_Kar.ipynb** for more details
+
+  Cnt = 0.2314*yr - 0.0910*holiday + 0.4698*temp - 0.1439*hum - 0.1890*windspeed - 0.0791*fall - 0.1422*spring - 0.0580*weathersit_2 - 0.2393*weathersit_3 + 0.1004*September + 0.3745 
+
+Please follow **Suddhasish_Kar.ipynb** for more details
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
