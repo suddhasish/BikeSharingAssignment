@@ -34,11 +34,11 @@ You are required to model the demand for shared bikes with the available indepen
 ## General Information
 
 **Background:**
-    The project involves building a multiple linear regression model to predict the demand for shared bikes. This prediction model is crucial for BoomBikes, a US-based bike-sharing provider, which has experienced a significant decline in revenue due to the COVID-19 pandemic. The company aims to understand the factors influencing the demand for shared bikes to develop a strategic business plan that can help them recover and thrive post-pandemic.
+The project involves building a multiple linear regression model to predict the demand for shared bikes. This prediction model is crucial for BoomBikes, a US-based bike-sharing provider, which has experienced a significant decline in revenue due to the COVID-19 pandemic. The company aims to understand the factors influencing the demand for shared bikes to develop a strategic business plan that can help them recover and thrive post-pandemic.
 
 **Business problem:**
 
-    BoomBikes is facing challenges in sustaining its operations during the ongoing pandemic. The company wants to prepare for the post-lockdown period by understanding the demand dynamics for shared bikes. The goal is to identify significant variables that affect bike demand and to quantify how these variables impact the demand. This understanding will enable BoomBikes to adjust their business strategies to meet customer needs effectively and gain a competitive edge in the market.
+BoomBikes is facing challenges in sustaining its operations during the ongoing pandemic. The company wants to prepare for the post-lockdown period by understanding the demand dynamics for shared bikes. The goal is to identify significant variables that affect bike demand and to quantify how these variables impact the demand. This understanding will enable BoomBikes to adjust their business strategies to meet customer needs effectively and gain a competitive edge in the market.
 
 **Dataset:**
     The dataset provided for this project, **day.csv**, contains daily bike demand data across the American market, with various features that could influence the demand. 
