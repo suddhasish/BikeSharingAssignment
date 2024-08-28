@@ -53,10 +53,10 @@ BoomBikes is facing challenges in sustaining its operations during the ongoing p
                 weekday: Day of the week
                 workingday: Whether the day is a working day (1) or not (0)
                 weathersit: Weather situation:
-                weathersit_1: Clear, Few clouds, Partly cloudy
-                weathersit_2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
-                weathersit_3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
-                weathersit_4: Heavy Rain + Ice Pellets + Thunderstorm + Mist, Snow + Fog
+                    weathersit_1: Clear, Few clouds, Partly cloudy
+                    weathersit_2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
+                    weathersit_3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
+                    weathersit_4: Heavy Rain + Ice Pellets + Thunderstorm + Mist, Snow + Fog
                 temp: Temperature in Celsius
                 atemp: Feeling temperature in Celsius
                 hum: Humidity
