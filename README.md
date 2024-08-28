@@ -44,26 +44,26 @@ BoomBikes is facing challenges in sustaining its operations during the ongoing p
     The dataset provided for this project, **day.csv**, contains daily bike demand data across the American market, with various features that could influence the demand. 
     The fields in the dataset include:
 
-            *    instant: Record index
-            *    dteday: Date
-            *    season: Season (1: Spring, 2: Summer, 3: Fall, 4: Winter)
-            *    yr: Year (0: 2018, 1: 2019)
-            *    mnth: Month (1 to 12)
-            *    holiday: Whether the day is a holiday (1) or not (0)
-            *    weekday: Day of the week
-            *    workingday: Whether the day is a working day (1) or not (0)
-            *    weathersit: Weather situation:
-            *    1: Clear, Few clouds, Partly cloudy
-            *    2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
-            *    3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
-            *    4: Heavy Rain + Ice Pellets + Thunderstorm + Mist, Snow + Fog
-            *    temp: Temperature in Celsius
-            *    atemp: Feeling temperature in Celsius
-            *    hum: Humidity
-            *    windspeed: Wind speed
-            *    casual: Count of casual users
-            *    registered: Count of registered users
-            *    cnt: Count of total rental bikes, including both casual and registered users
+                instant: Record index
+                dteday: Date
+                season: Season (1: Spring, 2: Summer, 3: Fall, 4: Winter)
+                yr: Year (0: 2018, 1: 2019)
+                mnth: Month (1 to 12)
+                holiday: Whether the day is a holiday (1) or not (0)
+                weekday: Day of the week
+                workingday: Whether the day is a working day (1) or not (0)
+                weathersit: Weather situation:
+                weathersit_1: Clear, Few clouds, Partly cloudy
+                weathersit_2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
+                weathersit_3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
+                weathersit_4: Heavy Rain + Ice Pellets + Thunderstorm + Mist, Snow + Fog
+                temp: Temperature in Celsius
+                atemp: Feeling temperature in Celsius
+                hum: Humidity
+                windspeed: Wind speed
+                casual: Count of casual users
+                registered: Count of registered users
+                cnt: Count of total rental bikes, including both casual and registered users
     The target variable for the model is 'cnt', which represents the total demand for shared bikes. The dataset also includes other independent variables that may influence bike demand, such as meteorological data and other relevant factors.
 
     By analyzing this dataset, the project aims to build a robust multiple linear regression model to predict bike demand and provide actionable insights for BoomBikes' management.
